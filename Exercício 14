@@ -1,0 +1,10 @@
+###14. Faça um programa que calcule e apresente as tabuadas do 3 ao 7. Este exercício utiliza DUAS estruturas de repetição.
+
+
+i = 3
+while i <= 7:
+    tabuada = 1
+    while tabuada <= 10: 
+        print(i,'x',tabuada,'=',i * tabuada)
+        tabuada = tabuada +1
+    i = 1 + i
