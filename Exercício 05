@@ -1,0 +1,18 @@
+###5. Faça um algoritmo que calcule e mostre a tabuada do 5. Pode implementar com o comando while ou for.
+
+
+numero = 5
+for i in range(11):
+    print(numero,'.',i,'=',numero*i)
+
+
+print('\n\n')
+
+
+contador = 0
+contador2 = 2
+while contador <=10:
+    print(contador*5)
+    contador = contador + 1
+    contador2 = contador2 + 1
+
