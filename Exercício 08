@@ -14,4 +14,15 @@ for n in range(10):
         print(f'Seu Reajuste Salarial foi de : R${n2:.2f}')
     n = 1 + n
 
+==========================================================================================================================================================================
 
+n = 0
+while n <= 10:
+    salario = float(input('Informe seu salario:'))
+    if salario < 300:
+        n1 = (salario * 0.5) + salario
+        print('Seu Reajuste Salarial foi de : R$',n1)
+    else:
+        n2 = (salario * 0.3) + salario
+        print(f'Seu Reajuste Salarial foi de : R${n2:.2f}')
+    n = 1 + n
