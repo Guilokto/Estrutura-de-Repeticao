@@ -1,0 +1,8 @@
+###2. Faça um algoritmo que mostre o cumprimento ‘Olá ‘ para o nome de alguém (4 pessoas). Exemplo ‘Olá Mariana’. Pode implementar com o comando while ou for.
+ 
+ 
+ contador = 1
+while contador <= 4:
+    nome=input('Insira seu nome:')
+    print('Ola,',nome)
+    contador = contador + 1
