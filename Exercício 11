@@ -1,0 +1,11 @@
+###11. Faça um algoritmo que conheça 4 preços de produtos, calcule e mostre a média aritmética dos preços. Pode implementar com o comando while ou for.
+
+
+n1 = 1
+final = 0
+while n1 <= 4 :
+    produt = float(input('Digite o valor do produto:'))
+    final = produt + final
+    r = final / 4
+    n1 = 1 + n1
+print('Valor total dos prdoutos:',r)
