@@ -1,0 +1,11 @@
+###10. Faça um algoritmo que calcule e informe a média de idades de 5 alunos. Pode implementar com o comando while ou for.
+
+
+n1 = 0
+id = 0
+for n in range(5):
+    idade = int(input('Informe a idade do aluno:'))
+    id = idade + id
+    media = id / 5
+    n1 = 1 + n1
+print(f'A média de idade desses alunos é de: {media:.2f}')
