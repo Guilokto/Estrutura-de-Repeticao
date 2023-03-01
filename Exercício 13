@@ -1,0 +1,15 @@
+###13. Faça um algoritmo que leia o preço de 20 TV, determine e apresente a média dos preços que possuem valor maior que R$ 1000. 
+Pode implementar com o comando while ou for.
+
+
+n1 = 1
+n2 = 0
+tv = 0
+media = 0
+while n1 <= 20: 
+    tv = float(input('Informe o valor da TV: '))
+    if tv > 1000:
+        n2 = n2 + 1
+        media = tv + media
+    n1 = n1 + 1
+print(f'A media de preços dos televisores cujo o valor é mairo que R$1000, são de: {media/n2:.2f}')
