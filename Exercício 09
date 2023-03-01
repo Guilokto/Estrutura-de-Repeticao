@@ -1,0 +1,10 @@
+###9. Faça um algoritmo que conheça 4 preços de produtos, some-os e mostre o resultado. Pode implementar com o comando while ou for.
+
+
+n1 = 1
+final = 0
+while n1 <= 4 :
+    produt = float(input('Digite o valor do produto:'))
+    final = produt + final
+    n1 = 1 + n1
+print('Valor total dos prdoutos:',final)
