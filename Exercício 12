@@ -1,0 +1,15 @@
+###12. Faça um programa que receba a idade e a altura de 20 pessoas. Calcule e exiba a média das alturas das pessoas com mais de 20 anos.
+
+
+n1 = 1
+altura = 0
+p = 0
+media = 0
+while n1 <= 20 :
+    idade = int(input('Informe a idade da pessoa: '))
+    altura = float(input('Informe a altura da pessoa: '))
+    if idade >= 20:
+        p = p + 1
+        media = altura + media
+    n1 = 1 + n1
+print(f'A media de altura das pessoas com mais de 20 anos é de: {media/p:.2f}') 
