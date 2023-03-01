@@ -1,0 +1,10 @@
+###6. Faça um algoritmo que receba a idade de 10 pessoas, calcule e exiba a quantidade de pessoas maiores de idade, sendo que a maioridade é obtida após completar 18 anos.
+Pode implementar com o comando while ou for.
+
+
+contador = 0
+for n in range(10) :
+    idade = int(input('Informe sua idade:'))
+    if idade >= 18 :
+        contador = contador + 1
+print('Pessoas Maiores de idade:',contador)
