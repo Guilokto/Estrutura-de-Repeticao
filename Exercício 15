@@ -1,0 +1,45 @@
+###15. Faça um programa para o curso de ADS (6 módulos), cada sala tem 30 alunos, calcule e apresente os seguintes itens:
+*  Quantidade de homens e mulheres de cada módulo;
+*  Média de idades de cada módulo;
+*  Quantidade de homens e mulheres do curso todo;
+*  Média de idades do curso todo.
+Observação: este exercício utiliza DUAS estruturas de repetição.
+
+
+
+homemtotal= 0
+mulhertotal = 0
+idadetotal = 0
+
+for modulo in range(1,30):
+    homemmodulo = 0
+    mulhermodulo = 0
+    idademodulo = 0
+    print(modulo,'°modulo','.'*30)
+    for alunos in range (2):
+        print()
+        #digitar os dados dos alunos
+        #...
+        idade = int(input("!Informe sua idade"))
+        genero = input('Informe seu genero (M/F) :')
+        if genero == 'M':
+            homemmodulo = homemmodulo + 1
+        else:
+            mulhermodulo = mulhermodulo + 1 
+        idademodulo = idademodulo + 1
+    #mostrar resultados de cada módulo
+    print()
+    print('A media da idade dos alunos do modluo é', idademodulo / (mulhermodulo + homemmodulo))
+    print()
+    print(mulhermodulo,'= Mulheres')
+    print(homemmodulo,'= Homens')
+    print()
+    #acumular valores para o curso
+    idadetotal = idademodulo + 1
+    homemtotal = homemmodulo + 1
+    mulhertotal = mulhermodulo + 1 
+
+#mostrar resultados do curso
+print('A media de idade no curso é', idadetotal / (mulhertotal + homemtotal))
+print(mulhertotal,'= Mulheres')
+print(homemtotal,'= Homens')
