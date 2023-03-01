@@ -1,0 +1,17 @@
+###8. Faça um algoritmo que calcule e exiba o salário reajustado de dez funcionários de acordo com a seguinte regra (pode implementar com o comando while ou for): 
+## Salário até 300, reajuste de 50%; 
+##Salários maiores que 300, reajuste de 30%.
+
+
+n = 0
+for n in range(10):
+    salario = float(input('Informe seu salario:'))
+    if salario < 300:
+        n1 = (salario * 0.5) + salario
+        print('Seu Reajuste Salarial foi de : R$',n1)
+    else:
+        n2 = (salario * 0.3) + salario
+        print(f'Seu Reajuste Salarial foi de : R${n2:.2f}')
+    n = 1 + n
+
+
